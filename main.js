@@ -2,8 +2,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
   getVisitCount();
 });
 
-
-const functionApi = 'https://dhresume-counter.azurewebsites.net/api/HttpTrigger1?code=E5d_whDegZ-DKXmAFMCx7PWtIDKrucS2WUa3PcOytKoHAzFu6ejT1w==&id=home';
+const functionApi = 'https://resume-counter-eus.azurewebsites.net/api/HttpTrigger1?code=Lw9DqUfJIUSmkHVlUo_dQszBreZfQY0xnfMGFdQcJhvCAzFuPgMdLA==&id=home';
 
 const getVisitCount = () => {
   let count = 30;
